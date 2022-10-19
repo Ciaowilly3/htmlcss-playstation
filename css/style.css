@@ -86,3 +86,9 @@ section{
     display: block;
     max-width: 500px;
 }
+
+/* decima section */
+
+.bg-blue{
+    background-color: #161c3b;
+}
