@@ -1,0 +1,21 @@
+
+/* breakpoint MD */
+@media screen and (min-width: 768px) {
+    /* classi header */
+    header{
+        height: 70px;
+    }
+
+    .sony-logo{
+        width: 150px;
+    }
+
+    header .play-logo{
+        width: 50px;
+    }
+
+    /* classi main */
+    .bg-jumbotron{
+        margin-top: 70px;
+    }
+}
