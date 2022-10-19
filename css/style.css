@@ -1,4 +1,6 @@
-
+:root{
+    --dark-color: #1f1f1f;
+}
 
 
 .content{
@@ -43,4 +45,31 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+/* quinta section */
+
+.bg-it-takes-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* sesta section */
+
+.bg-dark{
+    background-color: var(--dark-color);
+}
+
+.bg-dark .card{
+    --bs-card-border-color: transparent;
+    border: none;
+    background-color: transparent;
+}
+
+.bg-dark .card .card-img-top{
+    border-radius: 16px;
 }
