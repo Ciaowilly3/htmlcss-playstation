@@ -92,3 +92,11 @@ section{
 .bg-blue{
     background-color: #161c3b;
 }
+
+
+/* classi per il footer */
+
+footer{
+    background-color: #00439c;
+    margin-top: 40px;
+}
