@@ -15,6 +15,7 @@
 
 /* classi per l'header */
 header{
+    z-index: 10;
     position: fixed;
     height: 50px;
     width: 100%;
@@ -72,4 +73,16 @@ section{
 
 .bg-dark .card .card-img-top{
     border-radius: 16px;
+}
+
+/* ottava section */
+
+.bg-gray{
+    background-color: #cbc9c9;
+}
+
+.full-section{
+    height: 100%;
+    display: block;
+    max-width: 500px;
 }
