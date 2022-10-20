@@ -2,7 +2,9 @@
     --dark-color: #1f1f1f;
 }
 
-
+p{
+    font-size: 14px;
+}
 .content{
     width: 100%;
     height: 25px;
@@ -41,6 +43,10 @@
     font-size: 14px;
 }
 
+button.text-blue{
+    color: #0273ce;
+    background-color: rgb(171, 171, 171);
+}
 /* classi per l'header */
 header{
     z-index: 10;
@@ -94,8 +100,7 @@ header .fa-bars{
 /* classi main */
 
 section{
-    padding-top: 40px;
-    border: 1px dashed darksalmon;
+    padding-top: 32px;
 }
 
 /* prima section o jumbotron */
@@ -164,4 +169,22 @@ h5.text-blue{
 footer{
     background-color: #00439c;
     margin-top: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+footer .py-3 img{
+    width: 16px;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p a{
+    color: white;
 }

@@ -25,4 +25,8 @@
     .bg-jumbotron img{
         width: 75%;
     }
+
+    .w-lg-50{
+        width: 50%;
+    }
 }
