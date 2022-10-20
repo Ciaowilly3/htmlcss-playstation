@@ -12,6 +12,10 @@
     border-radius: 8px;
 }
 
+.my-btn{
+    border-radius: 20px;
+    font-size: 14px;
+}
 
 /* classi per l'header */
 header{
@@ -25,10 +29,42 @@ header{
 header .sony-logo{
     width: 100px;
     display: block;
+    padding: 8px 0;
 }
 
 header .play-logo{
     width: 30px;
+}
+
+/* nav */
+
+nav div ul li a.nav-link{
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+nav div ul li{
+    padding-right: 8px;
+}
+
+
+nav div ul li a.nav-link img{
+    width: 10px;
+    padding-left: 4px;
+}
+
+nav div ul li a.nav-link .search{
+    width: 24px;
+    display: block;
+    margin: auto;
+}
+
+header .fa-bars{
+    width: 16px;
+    aspect-ratio: 1 / 1;
+    margin: 8px;
+    font-size: 16px;
 }
 
 /* classi main */
