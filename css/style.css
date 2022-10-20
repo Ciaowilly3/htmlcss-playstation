@@ -17,6 +17,30 @@
     font-size: 14px;
 }
 
+.bg-orange{
+    background-color: #d7643f;
+}
+
+.bg-dark{
+    background-color: var(--dark-color);
+}
+
+.bg-gray{
+    background-color: #cbc9c9;
+}
+
+.bg-blue{
+    background-color: #161c3b;
+}
+
+.bg-cornflower{
+    background-color: #0273ce;
+}
+.text-gray{
+    color: gray;
+    font-size: 14px;
+}
+
 /* classi per l'header */
 header{
     z-index: 10;
@@ -70,7 +94,7 @@ header .fa-bars{
 /* classi main */
 
 section{
-    margin-top: 40px;
+    padding-top: 40px;
     border: 1px dashed darksalmon;
 }
 
@@ -82,6 +106,21 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.bg-jumbotron img{
+    width: 45%;
+    display: block;
+}
+
+
+/* terza section */
+
+h5.text-blue{
+    color: #0273ce;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 
@@ -97,9 +136,6 @@ section{
 
 /* sesta section */
 
-.bg-dark{
-    background-color: var(--dark-color);
-}
 
 .bg-dark .card{
     --bs-card-border-color: transparent;
@@ -113,9 +149,6 @@ section{
 
 /* ottava section */
 
-.bg-gray{
-    background-color: #cbc9c9;
-}
 
 .full-section{
     height: 100%;
@@ -124,10 +157,6 @@ section{
 }
 
 /* decima section */
-
-.bg-blue{
-    background-color: #161c3b;
-}
 
 
 /* classi per il footer */

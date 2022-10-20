@@ -19,3 +19,10 @@
         margin-top: 83.6px;
     }
 }
+
+/* breakpoint LG */
+@media screen and (min-width: 992px) {
+    .bg-jumbotron img{
+        width: 75%;
+    }
+}
